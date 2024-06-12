@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cls {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 20px;
+            width: 100%;
+            height: 1000px;
+        }
+
+        .box1 {
+            flex-direction: column;
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px;
+            width: 700px;
+            height: 900px;
+        }
+
+        .cls2 {
+            flex-direction: column;
+            box-sizing: border-box;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px;
+            width: 700px;
+            height: 900px;
+        }
+
+        .box2 {
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            margin-top: 50px;
+            width: 100%;
+            height: 40%;
+        }
+
+        .box2-1 {
+            align-content: space-between;
+            box-sizing: border-box;
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="cls">
+        <div class="box1">
+            <div class="box2">
+                <div class="box2-2"></div>
+                <div class="box2-2"></div>
+                <div class="box2-2"></div>
+                <div class="box2-2"></div>
+            </div>
+            <div class="box2">
+                <div></div>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="box2">
+                <div class="box2-1"></div>
+                <div class="box2-1"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <div class="box2">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
