@@ -1,7 +1,7 @@
 // 비구조 할당, 구조 분해
 function main() {
     const user = {
-        username: "admin",
+        usernaem: "admin",
         password: "1234",
         name: "김준일",
         email: "aaa@mail.com"
